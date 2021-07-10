@@ -2,23 +2,18 @@
 通过node执行命令行git clone的脚手架
 
 ## directory structure
-├── bin
-
-    └── alterFile             // 修改模板的项目名
-
-    ├── cli                   // 可执行文件
-    
-    ├── constants.js          // 常量
-
-    ├── create.js             // 创建文件咨询
-
-    ├── Generator.js          // 模板选项及下载
-
-├── package.json
-
-├── README.mdalterFile
+    /
+    ├── bin
+    |   ├── alterFile             // 修改模板的项目名
+    |   ├── cli                   // 可执行文件
+    |   ├── constants.js          // 常量
+    |   ├── create.js             // 创建文件咨询
+    |   └── Generator.js          // 模板选项及下载
+    ├── package.json
+    └── README.md
 
 ## attention
+
 1. 私有库需要本地配置ssh私钥
 
 ### [datum](https://juejin.cn/post/6966119324478079007#heading-40)
