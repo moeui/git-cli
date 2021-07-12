@@ -1,6 +1,21 @@
 # git-cli
 通过node执行命令行git clone的脚手架
 
+## Install
+``` js
+yarn add @moeui/git-cli -g  
+
+// or 
+
+npm i @moeui/git-cli -g
+```
+
+## use
+``` js
+git-cli create [project name]
+```
+
+
 ## directory structure
     /
     ├── bin
@@ -16,8 +31,3 @@
 
 1. 私有库需要本地配置ssh私钥
 
-### [datum](https://juejin.cn/post/6966119324478079007#heading-40)
-
-[Git生成SSH key](https://www.jianshu.com/p/0f26664e9f6a)
-
-[nrm 插件报错](https://blog.csdn.net/mynewdays/article/details/113928432)
