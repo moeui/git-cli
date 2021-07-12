@@ -1,6 +1,6 @@
 {
-  "name": "git-cli",
-  "version": "1.0.0",
+  "name": "@moeui/git-cli",
+  "version": "0.0.1",
   "description": "cli脚手架工具",
   "private": false,
   "main": "./bin/cli.js",
@@ -8,7 +8,8 @@
     "git-cli": "./bin/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish -access public"
   },
   "keywords": [
     "cli,脚手架,前端"
@@ -29,5 +30,12 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moeui/git-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moeui/git-cli/issues"
   }
 }
