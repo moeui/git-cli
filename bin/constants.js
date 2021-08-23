@@ -7,8 +7,9 @@ module.exports = {
   ],
   template: {
     'Vue 2.0': 'direct:https://github.com/lzxb/vue2-demo.git',
+    'vite-vue3': 'direct:https://github.com/moeui/vue3-vite-boilerplate.git',
     'taro': 'direct:https://github.com/bozaigao/Taro-demo.git',
-    'vite-ts-vue3': 'direct:https://github.com/swey01/vite-ts-vue3.git',
-    'React': 'direct:https://github.com/zkeyword/react-webpack-boilerplate.git'
+    'React': 'direct:https://github.com/zkeyword/react-webpack-boilerplate.git',
+    'React + vite': 'direct:https://github.com/moeui/react-vite-boilerplate.git'
   }
 }
